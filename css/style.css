@@ -1,0 +1,225 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Open Sans , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    display: flex;
+}
+.nav {
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.nav__item {
+    list-style: none;
+}
+.nav__link {
+    color: #222;
+    font-family: Open Sans , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__btn{
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    }
+
+
+
+
+
+.hero {
+    padding-top: 29px;
+    background-color: #0EB4C1;
+}
+.containerr {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hero__containerr {
+
+}
+.img__text {
+    display: flex;
+    align-items: center;
+    gap: 177px;
+}
+.texts {
+}
+.hero__title {
+    color: #FFF;
+    font-family: Roboto Condensed , sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    margin-bottom: 16px;
+    max-width: 500px;
+}
+.hero__text {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-bottom: 36px;
+}
+.hero__btn {
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hero__img {
+   display: flex;
+}
+
+
+
+.services {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.containe {
+    max-width: 904px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.services__containe {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-bottom: 60px;
+}
+.services_title {
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    text-align: center;
+
+}
+.box {
+    max-width: 864px;
+    
+}
+.text_andimg {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+.box_img {
+}
+.text_box {
+
+}
+.box_title {
+    margin-bottom: 24px;
+    color: #222;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.box_text {
+    color: #444;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+
+}
+.services__btn {
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+.services__btns{
+    text-align: center;
+}
