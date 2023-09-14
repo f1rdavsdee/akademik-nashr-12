@@ -223,3 +223,113 @@ body{
 .services__btns{
     text-align: center;
 }
+
+
+.royxat {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #0EB4C1;
+}
+.conta {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+.royxat__conta {
+
+    
+}
+.royxat__title {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    margin-bottom: 40px;
+}
+.royxat__btns {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.royxat__btn1 {
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    max-width: 194px;
+    white-space: nowrap;
+
+}
+.royxat__btn2{
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 18px */
+    letter-spacing: 2px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #222;
+}
+.conat {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer__conat {
+    display: flex;
+    align-items: center;
+    gap: 418px;
+}
+.footer__logo {
+    display: flex;
+}
+.footer__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.footer__item {
+    list-style: none;
+}
+.footer__link {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
